@@ -2,9 +2,20 @@
     #hero{
         content: url('../assets/menstrual-hero_desktop.jpg')
     }
-
+    #hero-shop-button{
+        display: none;
+    }
+    #hero-overlay-text{
+        font-size:20pt;
+    }
+    #hero-trial-button{
+        display: inline;
+    }
     #bamboo{
         content: url('../assets/bamboo_desktop.jpg')
+    }
+    #bamboo-overlay-text{
+        font-size:20pt;
     }
     #pad-detail-image{
         content:url('../assets/pad_detail_desktop.jpg')
@@ -21,8 +32,20 @@
     #hero{
         content: url('../assets/menstrual-hero_mobile.jpg')
     }
+    #hero-shop-button{
+        display: inline;
+    }
+    #hero-trial-button{
+        display: none;
+    }
+    #hero-overlay-text{
+        font-size:12pt;
+    }
     #bamboo{
         content: url('../assets/bamboo_mobile.jpg')
+    }
+    #bamboo-overlay-text{
+        font-size:12pt;
     }
     #pad-detail-image{
         content:url('../assets/pad_detail_mobile.jpg')
