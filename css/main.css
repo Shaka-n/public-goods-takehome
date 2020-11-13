@@ -97,4 +97,14 @@ button{
 
 #new-customer-overlay{
     position: absolute;
+    bottom: 50%;
+    left: 20px;
+}
+
+#new-customer-text{
+    max-width: 300px;
+}
+
+#press-quotes{
+    max-width: 300px;
 }
