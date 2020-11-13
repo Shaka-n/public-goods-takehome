@@ -9,6 +9,11 @@ img{
 }
 button{
     background-color:orange;
+    border: none;
+}
+
+#bottom-shop-button{
+    align-self: center;
 }
 
 #hero-container{
@@ -29,6 +34,14 @@ button{
     width: 300px;
 }
 
+#hero-button{
+    color: white;
+    border: none;
+    font-weight: bold;
+    width: 150px;
+    height: 50px;
+}
+
 #bamboo-container{
     position: relative;
 }
@@ -41,13 +54,6 @@ button{
     left: 30%;
 }   
 
-#hero-button{
-    color: white;
-    border: none;
-    font-weight: bold;
-    width: 150px;
-    height: 50px;
-}
 
 
 .pad-container {
@@ -62,7 +68,7 @@ button{
 }
 .pad-overlay{
     position: absolute;
-    bottom: 300px;
+    bottom: 50%;
     left: 50px;
 }
 
@@ -104,6 +110,8 @@ button{
 #new-customer-text{
     max-width: 300px;
 }
+
+
 
 #press-quotes{
     max-width: 300px;
