@@ -8,6 +8,9 @@ img{
     width: 100%;
 }
 button{
+    color: white;
+    border: none;
+    font-weight: bold;
     background-color:orange;
     border: none;
 }
@@ -34,7 +37,14 @@ button{
     width: 300px;
 }
 
-#hero-button{
+#hero-trial-button{
+    color: white;
+    border: none;
+    font-weight: bold;
+    width: 150px;
+    height: 50px;
+}
+#hero-shop-button{
     color: white;
     border: none;
     font-weight: bold;

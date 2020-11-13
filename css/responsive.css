@@ -1,12 +1,13 @@
 @media screen and (min-width: 761px){
     #hero{
         content: url('../assets/menstrual-hero_desktop.jpg')
-    }
-    #hero-shop-button{
-        display: none;
+        
     }
     #hero-overlay-text{
         font-size:20pt;
+    }
+    #hero-shop-button{
+        display: none;
     }
     #hero-trial-button{
         display: inline;
