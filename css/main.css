@@ -1,0 +1,50 @@
+@import './responsive.css';
+
+body{
+    color: black;
+}
+
+#hero-container{
+    display: flex;
+    flex: 1;
+}
+#hero{
+    width: 100%;
+}
+
+#new-customer-image{
+    max-width: 100%;
+}
+
+
+img{
+    width: 100%;
+}
+
+.pad-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding: 20px;
+}
+.pad-box{
+    max-width: 720px;
+}
+
+/* .pad-image{
+    max-width: 50%;
+} */
+
+.product-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    max-width: 1400;
+    padding: 20px;
+}
+
+.product-image{
+    max-width: 350px;
+}
+
+

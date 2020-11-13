@@ -1,0 +1,36 @@
+@media screen and (min-width: 761px){
+    #hero{
+        content: url('../assets/menstrual-hero_desktop.jpg')
+    }
+
+    #bamboo{
+        content: url('../assets/bamboo_desktop.jpg')
+    }
+    #pad-detail-image{
+        content:url('../assets/pad_detail_desktop.jpg')
+    }
+    #pad-hand-image{
+        content:url('../assets/pad_in_hand_desktop.jpg')
+    }
+    #new-customer-image{
+        content:url('../assets/new-to-public-goods_desktop.jpg')
+    }
+}
+
+@media screen and (max-width: 760px){
+    #hero{
+        content: url('../assets/menstrual-hero_mobile.jpg')
+    }
+    #bamboo{
+        content: url('../assets/bamboo_mobile.jpg')
+    }
+    #pad-detail-image{
+        content:url('../assets/pad_detail_mobile.jpg')
+    }
+    #pad-hand-image{
+        content:url('../assets/pad_in_hand_mobile.jpg')
+    }
+    #new-customer-image{
+        content:url('../assets/new-to-public-goods_mobile.jpg')
+    }
+}
