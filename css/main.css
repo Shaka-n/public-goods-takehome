@@ -126,3 +126,16 @@ button{
 #press-quotes{
     max-width: 300px;
 }
+
+.hide{
+    display: none;
+}
+
+.popup-box{
+    position: fixed;
+    bottom: 77px;
+    background-color: orange;
+    min-width: 600px;
+    min-height: 400px;
+}
+
