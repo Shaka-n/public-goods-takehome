@@ -131,11 +131,28 @@ button{
     display: none;
 }
 
+.show{
+    display: inline;
+    transform: 400px;
+    animation: slide 2s linear;
+}
+
+@keyframes slide {
+    0%{
+      transform: translate3d(0, 0, 0);
+    }
+    100%{
+      transform: translate3d(-1692px, 0, 0); /* The image width */
+    }
+  }
+  
+
 .popup-box{
     position: fixed;
-    bottom: 77px;
+    z-index: 100;
+    bottom: 0px;
     background-color: orange;
-    min-width: 600px;
-    min-height: 400px;
+    max-width: 600px;
+    max-height: 400px;
 }
 
