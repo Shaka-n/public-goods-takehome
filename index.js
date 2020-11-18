@@ -1,6 +1,9 @@
 // Un-hides the popup after 5 seconds
 document.addEventListener("DOMContentLoaded", ()=>{
-    setTimeout(()=> document.getElementById('popup-box').classList.remove('hide').classList.add('show'), 5000)
+    setTimeout(()=> {
+        document.getElementById('popup-box').classList.remove('hide')
+        document.getElementById('popup-box').classList.add('show')
+    }, 5000)
 })
 // 
 
